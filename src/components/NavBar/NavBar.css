@@ -1,0 +1,143 @@
+.navbar{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding: 8px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(32, 33, 36, 0.963);
+    color: #D6DFE3;
+    border-bottom: 1px solid #525355;
+}
+.mainMenu{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.btn{
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: inherit;
+    color: #D6DFE3;
+    position: relative;
+    height: 50px;
+    min-width: 50px;
+    top: 0;
+    right: 0;
+}
+
+.logoText{
+    font-size: 1.3rem;
+}
+button i{
+    font-size: 25px;
+}
+.btn .searchContainer i{
+    font-size: 21px;
+}
+.section,.logoContainer{
+    display: flex;
+    align-items: center;
+}
+.logoContainer{
+    margin-left: 12px;
+}
+.logoText{
+    padding-left: 8px;
+}
+.searchContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    height: 100%;
+    background-color: #525355;
+    color: #D6DFE3;
+    padding: 0 8px;
+    width: 50%;
+}
+
+.btn:hover{
+    background-color: #525355;
+}
+.searchInput{
+    padding-left: 10px;
+    width: 100%;
+}
+
+.searchInput input{
+    background-color: transparent;
+}
+::placeholder{
+    color: #D6DFE3;
+}
+.sec1{
+    width: 250px
+}
+
+.sec2{
+    width: 80%;
+    justify-content: space-around;
+}
+.logo img{
+    height: 40px
+}
+.setting{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    height: 100%;
+    width: 15%
+}
+.setting button{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    right: 0;
+}
+.moon{
+    opacity: 0;
+}
+.grid{
+    opacity: 0;
+}
+.theme i,.setting i{
+    /* width: 100px; */
+    position: absolute;
+    top: 20%;
+    right: 24%;
+}
+.sec3{
+    width: 5%;
+}
+.accountContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: none;
+    background-color: #525355;
+    height: 47px;
+    width: 100%;
+    font-size: 1rem;
+    color: #D6DFE3;
+}
+input:focus{
+    outline: none;
+}
+@media (max-width:700px) {
+    .sec2{
+        display: none;
+    }
+    
+}
