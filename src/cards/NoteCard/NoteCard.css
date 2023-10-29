@@ -1,0 +1,115 @@
+.noteCard{
+    width: 350px;
+    height: 180px;
+    position: relative;
+    border: 2px solid #D6DFE3;  
+    border-radius: 12px;
+    padding: 8px;
+    color: white;
+    overflow-y: auto ;
+}
+
+.noteCard:hover{
+    cursor: pointer;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 24px 4px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 600;
+    height: 24px;
+    margin: 8px 4px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D6DFE3;
+}
+
+.noteContent{
+    margin: 8px 4px;
+    font-size: 14px;
+    color: white;
+}
+.pin-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.noteCard-btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.note-card{
+    padding: 8px;
+    & i{
+        font-size: 20px;
+        margin: 0 4px;
+        padding: 8px;
+        border-radius: 50%;
+    }
+    & i:hover{
+        background-color:  #525355;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:1210px) {
+    .noteCard{
+        width: 400px;
+        height: 200px;
+    }
+}
+@media (max-width:1050px) {
+    .noteCard{
+        width: 700px;
+        height: 250px;
+    }
+}
+
+@media (max-width:950px) {
+    .noteCard{
+        width: 600px;
+        height: 230px;
+    }
+}
+
+@media (max-width:840px) {
+    .noteCard{
+        width: 550px;
+        height: 220px;
+    }
+}
+@media (max-width:640px) {
+    .noteCard{
+        width: 420px;
+        height: 150px;
+    }
+}
+@media (max-width:560px) {
+    .noteCard{
+        width: 380px;
+        height: 200px;
+    }
+}
+@media (max-width:510px) {
+    .noteCard{
+        width: 350px;
+        height: 210px;
+    }
+}
+@media (max-width:490px) {
+    .noteCard{
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media (max-width:430px) {
+    .noteCard{
+        width: 250px;
+        height: 300px;
+    }
+}
