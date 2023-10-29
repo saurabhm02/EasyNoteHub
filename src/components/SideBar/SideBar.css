@@ -1,0 +1,83 @@
+.sidebar {
+    display: inline-block;
+    position: fixed;
+    width: 180px;
+    height: 100vh;
+    margin-top: 62px;
+    background-color: rgb(32, 33, 36);
+    z-index: 5;
+    padding: 20px 0px;
+    color: #D6DFE3;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  a{
+    text-decoration: none;
+    color: #D6DFE3;
+  }
+  .button.search i{
+    border-radius: 50%;
+    padding : 5px;
+  }
+  
+  .button.search i:hover{
+    padding : 5px;
+    background-color: rgba(32, 33, 36, 0.963);
+  }
+  
+  
+  li {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 6px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transition: width 0.3s ease-in-out;
+  }
+  li i {
+    /* position: absolute; */
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    height: 50px;
+    min-width: 50px;
+  }
+  li.active {
+    background-color: #525355;
+  }
+  li:hover {
+    cursor: pointer;
+    background-color: #525355;
+  }
+  span{
+    margin-left: 8px;
+  }
+  .sidebar.short {
+    width: 62px;
+  }
+  
+  .sidebar.short li i {
+    border-radius: 50%;
+    
+  }
+  .sidebar.short li.active i{
+    border-radius: 50%;
+    background-color: #525355;
+    
+  }
+  .sidebar.short li i:hover{
+    border-radius: 50%;
+    background-color:#525355;
+    
+  }
+  
+  .sidebar.short li.active {
+    background-color: transparent;
+  
+  }
+  .sidebar.short li:hover{
+    background-color: transparent;
+  }
+  
