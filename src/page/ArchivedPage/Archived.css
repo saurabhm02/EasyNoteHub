@@ -1,0 +1,13 @@
+.archivedPage{
+    padding: 20px;
+    margin-left: 64px;
+    color:  #D6DFE3;
+    background: #28292C;
+}
+.archivedCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,0fr));
+    grid-gap: 10px;
+}
+
+
