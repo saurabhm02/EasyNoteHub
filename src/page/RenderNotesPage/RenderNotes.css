@@ -1,0 +1,85 @@
+.renderNotes {
+    width: calc(100% - 62px);
+    margin-left: 62px;
+    color: #D6DFE3;
+    padding: 20px;
+    background: #28292C;
+}
+
+.pinned, .oNotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+}
+
+.NoData {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width:1050px) {
+    .pinned, .oNotes {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+        grid-gap: 5px;
+    }
+}
+
+@media (max-width:840px) {
+    .pinned, .oNotes {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        grid-gap: 5px;
+    }
+}
+
+@media (max-width:840px) {
+    .pinned, .oNotes {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+        grid-gap: 5px;
+    }
+}
+
+@media (max-width:550px) {
+    .pinned, .oNotes {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+        grid-gap: 5px;
+    }
+}
+@media (max-width:490px) {
+    .pinned, .oNotes {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-gap: 5px;
+    }
+}
+@media (max-width:490px) {
+    .pinned, .oNotes {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 5px;
+    }
+}
+@media (max-width:430px) {
+    .pinned, .oNotes {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 5px;
+    }
+}
